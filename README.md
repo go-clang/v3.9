@@ -1,4 +1,4 @@
-# go-clang/bootstrap [![GoDoc](https://godoc.org/github.com/go-clang/bootstrap?status.png)](https://godoc.org/github.com/go-clang/bootstrap) [![Build Status](https://travis-ci.org/go-clang/bootstrap.svg?branch=master)](https://travis-ci.org/go-clang/bootstrap)
+# go-clang/v3.9 [![GoDoc](https://godoc.org/github.com/go-clang/v3.9?status.png)](https://godoc.org/github.com/go-clang/v3.9) [![Build Status](https://travis-ci.org/go-clang/v3.9.svg?branch=master)](https://travis-ci.org/go-clang/v3.9)
 
 Native Go bindings for Clang's C API.
 
@@ -6,7 +6,7 @@ Native Go bindings for Clang's C API.
 
 ```bash
 CGO_LDFLAGS="-L`llvm-config --libdir`" \
-  go get -u github.com/go-clang/bootstrap/...
+  go get -u github.com/go-clang/v3.9/...
 ```
 
 ## Usage
